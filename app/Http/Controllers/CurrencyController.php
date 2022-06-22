@@ -36,7 +36,7 @@ class CurrencyController extends Controller
        
       $val = $obj["$query"];
  
-      $total = $val['val'] * 1;
+      $total = $val['val'] * $amount;
  
       $formatValue = number_format($total, 2, '.', '');
        
