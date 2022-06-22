@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('currency','CurrencyController@index');
-Route::post('currency','CurrencyController@exchangeCurrency');
+Route::get('currency','App\Http\Controllers\CurrencyController@index');
+Route::post('currency','App\Http\Controllers\CurrencyController@exchangeCurrency');
