@@ -23,7 +23,7 @@ class CurrencyController extends Controller
          
       $amount = ($request->amount)?($request->amount):(1);
  
-      $apikey = '743910d382824562b9g';
+      $apikey = '290510f3828779462b9b';
  
       $from_Currency = urlencode($request->from_currency);
       $to_Currency = urlencode($request->to_currency);
